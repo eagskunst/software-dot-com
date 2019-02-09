@@ -187,7 +187,56 @@ h1{
     height: 80px;
 }
 
-/* .editor-card p{
-    font-size: 14px;
-    color: #919eab;
-} */
+.advantages{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.advantages-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.advantages-title h2{
+    margin: 0;
+    margin-right: 20px;
+    font-weight: 700;
+    font-size: 26px;
+}
+.advantages-descp p{
+    font-size: 18px;
+    color: rgba(0,0,0,.7);
+}
+
+.advantages-descp strong{
+    color: #00b4ee;
+}
+
+.mini-rectangle{
+    margin: 30px auto;
+    border: 1.5px solid #00b4ee;
+    width: 6em;
+}
+
+.advantages-details{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    flex-wrap: wrap;
+    padding: 60px 210px 60px 150px;
+}
+
+.advantage{
+    width: 440px;
+    margin: 30px 0;
+}
+
+.advantage p strong{
+    font-family: 'Poppins', sans-serif;
+}
+
+.advantage p{
+    margin:8px 0 10px;
+}
