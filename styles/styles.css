@@ -61,10 +61,10 @@ body{
 .hero{
     background: #384356;
     padding: 0;
-    padding-top: 30px;
+    padding-top: 120px;
     text-align: center;
-    height: 750px;
-    margin: 0 auto;
+    height: 670px;
+    margin: 0 auto 350px;
 }
 
 h1{
@@ -107,7 +107,19 @@ h1{
 
 .hero-gif-container{
     position: relative;
+    margin: 0 auto;
+    width: 800px;
+    height: 550px;
     z-index: 2;
     padding: 0;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 6px 5px 20px 0px #00000052;
+    overflow: hidden;
 }
 
+.hero-dashboard{
+    border-radius: 5px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
