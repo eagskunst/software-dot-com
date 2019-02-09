@@ -333,3 +333,32 @@ h1{
 .data-detail p{
     margin: 0;
 }
+
+footer{
+    background-color: #FBFCFD;
+    border-top: 1px solid #80808026;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.sections-and-contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.subpages{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.sections-and-contact a{
+    padding: 25px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: black;
+}
