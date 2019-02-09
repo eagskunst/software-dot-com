@@ -272,3 +272,64 @@ h1{
     height: 24px;
     padding-right: 20px;
 }
+
+
+/* .data-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+} */
+
+.data-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 80px;
+}
+
+.data-texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.dog-container{
+    height: inherit;
+    margin-right: 150px;
+}
+
+.data-titles p strong{
+    color: #00b4ee;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.data-titles p{
+    margin: 0 0 10px 0;
+}
+
+.data-titles{
+    display:flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+    margin: 5px 0 20px 0;
+}
+
+.data-info h2{
+    margin: 0;
+    font-size: 30px;
+}
+
+.data-detail h4{
+    margin:15px 0;
+    font-size: 18px;
+}
+
+.data-detail p{
+    margin: 0;
+}
