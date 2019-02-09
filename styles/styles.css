@@ -240,3 +240,35 @@ h1{
 .advantage p{
     margin:8px 0 10px;
 }
+
+.try-it{
+    background-color: #384356;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.try-it h2{
+    font-size: 28px;
+}
+
+.try-it h4{
+    font-weight: normal;
+}
+
+
+
+.because-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.because-item img{
+    width: 24px;
+    height: 24px;
+    padding-right: 20px;
+}
