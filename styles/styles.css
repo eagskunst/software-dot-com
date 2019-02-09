@@ -64,7 +64,7 @@ body{
     padding-top: 120px;
     text-align: center;
     height: 670px;
-    margin: 0 auto 350px;
+    margin: 0 auto;
 }
 
 h1{
@@ -123,3 +123,71 @@ h1{
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
 }
+
+.install-plugin{
+    text-align: center;
+    padding-top: 300px;
+    background-color: #FBFCFD;
+    padding-bottom: 150px;
+}
+
+.how-to-install{
+    margin: 0 0 30px;
+}
+
+.install-plugin h5{
+    font-size: 1em;
+    margin: 0 0 5px;
+    color: #00b4ee;
+}
+
+.install-plugin h2{
+    margin: 0 0 15px;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.how-to-install p{
+    font-size: 22px;
+    color: rgba(0,0,0,.7);
+    margin: 0 0 20px 0;
+}
+
+.editors-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.editor-card {
+    width: 140px;
+    height: 130px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 25px 2px 0;
+    margin-bottom: 20px;
+    margin-right: 20px; 
+    /* box-shadow: 4px 2px 11px 0px #c3c1c18a;
+    border: 1px solid #8080801c; */
+    box-shadow: 3px 2px 0px 0px #c3c1c11f;
+    border: 1px solid #8080801c;
+    font-size: 14px;
+    color: #919eab;
+}
+
+.editor-card:hover{
+    box-shadow: 7px 8px 10px 4px #4c67693d;
+    color: black;
+}
+
+.editor-card img{
+    width: 80px;
+    height: 80px;
+}
+
+/* .editor-card p{
+    font-size: 14px;
+    color: #919eab;
+} */
