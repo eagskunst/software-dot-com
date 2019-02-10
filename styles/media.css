@@ -5,6 +5,16 @@
     }
 }
 
+@media screen and (max-width: 1024px){
+    .data-info{
+        align-items: center;
+    }
+
+    .dog-container{
+        margin-top: 10%;
+    }
+}
+
 
 @media screen and (max-width: 977px){
 
