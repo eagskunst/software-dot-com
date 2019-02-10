@@ -39,7 +39,7 @@
             <h5>Code editor plugins</h6>
             <h2>Getting started</h4>
             <p>To get started, choose your text editor or IDE and follow the setup instructions </p>
-            <div class="show-editors">
+            <div class="show-editors" id="#editorsButton">
                 <p>Show supported editors</p>
             </div>
         </article>
@@ -232,6 +232,34 @@
         </article>
     </footer>
 
-</body>
+    <script>
+        const media = window.matchMedia('screen and (max-width: 480px');
+        const button = document.querySelector('.show-editors');
+        const editorsSec = document.querySelector('.editors-container');
+        const list = editorsSec.classList;
 
+        media.addListener(validation);
+
+        function validation(event){
+            if(event.matches){
+                button.addEventListener('click', showEditors)
+            }
+            else{
+                button.removeEventListener('click', showEditors)
+            }
+        }
+
+
+        function showEditors(){
+            if(!list.contains('is-active')){
+                list.add('is-active');
+            }
+            else{
+                list.remove('is-active');
+            }
+        }
+
+        validation(media);
+    </script>
+</body>
 </html>

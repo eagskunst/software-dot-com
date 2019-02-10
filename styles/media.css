@@ -143,11 +143,33 @@
 
     .show-editors{
         display: block;
+        margin-top: 10%;
     }
 
     .data-info{
         padding: 10% 20%;
     }
+
+    .editors-container{
+        display: none;
+    }
+
+    .is-active{
+        display: flex;
+    }
+    
+    footer{
+        font-size: 1.3em;
+    }
+
+    .subpages a{
+        padding: 1% 5%;
+        font-size: .7em;
+    }
+
+    .social a{
+        font-size: 2em;
+    } 
 }
 
 @media screen and (max-width: 368px){
